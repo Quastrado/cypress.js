@@ -1,0 +1,7 @@
+/node_modules
+cypress/downloads
+cypress/e2e/examples.cy.js
+cypress/e2e/kopeika.cy.js
+cypress/e2e/login.cy.js
+cypress/e2e/poke.cy.js
+cypress/e2e/staya.cy.js
