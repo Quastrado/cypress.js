@@ -13,7 +13,6 @@ describe('Тест для https://huntingpony.com/', function() {
         cy.get('.add-cart-counter__btn').click();
         // ожидание 2 секунды
         cy.wait(2000);
-        // добавление товара в корзину
         // добавление товара до количества 2 шт.
         cy.get('[data-add-cart-counter-plus=""]').click();
         // переход в корзину
