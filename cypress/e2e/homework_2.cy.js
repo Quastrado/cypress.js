@@ -22,7 +22,8 @@ describe('Тест для https://huntingpony.com/', function() {
         cy.get('.cart-controls > .button').click();
         // проверка наличия текста в оформлении заказа
         cy.contains('Оформление заказа');
-        // cy.clearAllCookies();                        // очистка куки
+        // очистка куки
+        cy.clearAllCookies();
     })
 
     
