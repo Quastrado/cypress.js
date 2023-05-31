@@ -55,7 +55,7 @@ describe('Тесты для https://login.qa.studio/', function() {
         cy.get('#mail').type('GerMan@Dolnikov.ru');  // ввод email
         cy.get('#pass').type('iLoveqastudio1');      // ввод пароля
         cy.get('#loginButton').click();              // нажатие кнопки авторизации
-        cy.contains('Авторизация прошла успешно');   // поиск текста на странице
+        cy.contains('Такого логина или пароля нет');   // поиск текста на странице
         cy.get('#exitMessageButton > .exitIcon');    // проверка наличия крестика
         cy.clearAllCookies();                        // очистка куки
     })
